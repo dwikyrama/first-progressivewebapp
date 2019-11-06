@@ -3,24 +3,18 @@
 }
 .parallax-container {
     overflow: visible;
-    height:320px;
+    height:300px;
 }
 .parallax-container img {
-    height:500px;
+    width:100%;
 }
 @media screen and (max-width: 992px) {
     .parallax-container {
-        height:240px;
-    }
-    .parallax-container img {
-        height:360px;
+        height:200px;
     }
 }
 @media screen and (max-width: 600px) {
     .parallax-container {
-        height:160px;
-    }
-    .parallax-container img {
-        height:240px;
+        height:100px;
     }
 }
