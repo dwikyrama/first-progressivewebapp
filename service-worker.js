@@ -3,12 +3,24 @@ var urlsToCache = [
   "/",
   "/nav.html",
   "/index.html",
-  "/pages/home.html",
-  "/pages/about.html",
-  "/pages/contact.html",
+  "/icon.png",
+  "/manifest.json",
+  "/pages/beranda.html",
+  "/pages/bahasa.html",
+  "/pages/wilayah.html",
+  "/pages/tentang.html",
   "/css/materialize.min.css",
+  "/css/style.css",
   "/js/materialize.min.js",
-  "/js/nav.js"
+  "/js/nav.js",
+  "/images/indonesia.png",
+  "/images/jawa_bali.png",
+  "/images/kalimantan.png",
+  "/images/maluku.png",
+  "/images/nusa_tenggara.png",
+  "/images/papua.png",
+  "/images/sulawesi.png",
+  "/images/sumatra.png"
 ];
 
 //Save assets to cache

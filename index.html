@@ -5,29 +5,29 @@
   <title>Indonesia Kaya Bahasa</title>
   <meta name="description" content="My first PWA"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#004d40"/>
   <link rel="stylesheet" href="css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="/manifest.json">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <!-- Navigasi -->
-  <div class="navbar-fixed">
-    <nav class="teal darken-4" role="navigation">
-      <div class="nav-wrapper container">
-        <a href="#" class="brand-logo" id="logo-container"><i class="material-icons">language</i>BAHASA</a>
-        <a href="#" class="sidenav-trigger" data-target="nav-mobile">
-            <i class="material-icons">menu</i>
-        </a>
-        <ul class="topnav right hide-on-med-and-down"></ul>
-        <ul class="sidenav" id="nav-mobile"></ul>
-      </div>
-    </nav>
-  </div>
+  <nav class="teal darken-4" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo" id="logo-container"><i class="material-icons">language</i>BAHASA</a>
+      <a href="#" class="sidenav-trigger" data-target="nav-mobile">
+          <i class="material-icons">menu</i>
+      </a>
+      <ul class="topnav right hide-on-med-and-down"></ul>
+      <ul class="sidenav" id="nav-mobile"></ul>
+    </div>
+  </nav>
   <!-- Akhir Navigasi -->
   <div class="container" id="body-content"></div>
   <script src="js/materialize.min.js"></script>
   <script src="js/nav.js"></script>
-  <!-- <script>
+  <script>
     // REGISTER SERVICE WORKER
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function() {
@@ -43,6 +43,6 @@
     } else {
       console.log("ServiceWorker belum didukung browser ini.");
     }
-  </script> -->
+  </script>
 </body>
 </html>
