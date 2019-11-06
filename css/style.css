@@ -1,0 +1,26 @@
+.btn-large {
+    margin-bottom: 12px;
+}
+.parallax-container {
+    overflow: visible;
+    height:320px;
+}
+.parallax-container img {
+    height:500px;
+}
+@media screen and (max-width: 992px) {
+    .parallax-container {
+        height:240px;
+    }
+    .parallax-container img {
+        height:360px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .parallax-container {
+        height:160px;
+    }
+    .parallax-container img {
+        height:240px;
+    }
+}
