@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {  
   // Activate sidebar nav
-  var elems = document.querySelectorAll(".sidenav");
-  M.Sidenav.init(elems);
+  var sidenavElems = document.querySelectorAll(".sidenav");
+  M.Sidenav.init(sidenavElems);
   loadNav();
- 
+
   function loadNav() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Load page content
   var page = window.location.hash.substr(1);
-  if (page == "") page = "home";
+  if (page == "") page = "beranda";
   loadPage(page);
   
   function loadPage(page) {
@@ -45,6 +45,10 @@ document.addEventListener("DOMContentLoaded", function() {
         var content = document.querySelector("#body-content");
         if (this.status == 200) {
           content.innerHTML = xhttp.responseText;
+          
+          // Initialize all materialize components
+          M.AutoInit();
+
         } else if (this.status == 404) {
           content.innerHTML = "<p>Halaman tidak ditemukan.</p>";
         } else {
