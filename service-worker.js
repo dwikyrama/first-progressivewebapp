@@ -1,4 +1,4 @@
-const CACHE_NAME = "firstpwa";
+const CACHE_NAME = "bahasa";
 var urlsToCache = [
   "/",
   "/nav.html",
@@ -20,7 +20,9 @@ var urlsToCache = [
   "/images/nusa_tenggara.png",
   "/images/papua.png",
   "/images/sulawesi.png",
-  "/images/sumatra.png"
+  "/images/sumatra.png",
+  "/images/logo_kemendikbud.png",
+  "/images/logo_big.png"
 ];
 
 //Save assets to cache

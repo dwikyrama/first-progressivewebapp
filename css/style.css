@@ -1,6 +1,17 @@
 .btn-large {
     margin-bottom: 12px;
 }
+img.tooltipped {
+    margin-bottom: 16px;
+    margin-left: 8px;
+    width: 48px;
+}
+.modal-content img {
+    width: 300px;
+}
+.modal {
+    max-height: 90%;
+}
 .parallax-container {
     overflow: visible;
     height:300px;
